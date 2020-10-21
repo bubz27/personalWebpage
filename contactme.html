@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Contact Me Form</title>
+        
+        <link rel="stylesheet" href="contactme.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
+    
+    </head>
+
+
+
+
+    <body>
+        
+<form action="Contactmesubmissions.php" target=_self method="POST">
+
+        <div class="buttons">
+            <a href="Mission3.html" id="one" >Home</a> 
+            <a href="Mission3.html#container" id="two" >About</a>
+            <a href="#" id="three">Contact Me</a>
+        </div>
+
+        <div class=buttonshover></div>
+       
+<div class="contactform">
+        <h1>Whakapā Mai <br>Contact Me</h1>
+
+            <div class="text">
+           <label>Tō Ingoa:</label>
+           <input type="text" name="" value="" placeholder="Full Name" required>
+       </div>
+
+       <div class="text">
+        <label>Tō Imera:</label>
+        <input type="email" name="" value="" placeholder="Email Address" required>
+    </div>
+
+    <div class="text">
+        <label>Nama Waea:</label>
+        <input type="tel" name="" value="" placeholder="Contact Number" minlength="6" maxlength="14" required>
+    </div>
+
+    <div class="select" id="ira">
+        <label>Tō Ira (Gender):</label>
+        <select required>
+        <option selected=true value=SelectOne disabled> Kōwhiritia/Select One </option>
+        <option value=Tāne>Tane (Male)</option>
+        <option value=Wahine>Wahine (Female)</option>
+        <option value=Undisclosed>Tētahi Atu (Prefer Not To Say)</option>
+</select>
+    </div>
+
+    <div class="text">
+        <label>Karere/Your Message:</label>
+        <textarea placeholder="Enter Your Message" maxlength=300 required>  </textarea>
+    </div>
+
+    <div class="buttonone" >  <input type="submit" name="" value="Tukuna/Send" onclick="showMessage()">
+    </div>
+        
+  
+
+
+</div>
+
+
+
+       
+<script src="" async defer>
+
+function showMessage() {
+    alert("Ngā mihi! <br> Thank-you!<br>Your form has been submitted");
+}
+
+
+
+
+</script>
+
+</form>
+</body>
+</html>
+
