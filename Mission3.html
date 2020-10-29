@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <link rel="stylesheet" href="Mission3.css" type="text/css">
+        <title>Mission3</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        
+    </head>
+    
+    <body>
+     
+    
+        <div class="img1">
+            <div class="button">
+                <a href="#" id="one" onmouseover="setNewText1.call()" onmouseout="setOldText1.call()"  >Kāinga</a>
+                <a href="Mission3.html#container" id="two" onmouseover="setNewText2.call()" onmouseout="setOldText2.call()" >Mōku</a> 
+                <a href="contactme.html" id="three" onmouseover="setNewText3.call()" onmouseout="setOldText3.call()" >Whakapā Mai</a>
+            </div>
+
+            <div class="text">
+                <span class="border" id="welcome" onmouseover="newText.call()" onmouseout="oldText.call()">
+                    Nau mai, haere mai 
+                </span>
+            </div>
+        </div>
+        
+        <section class="section section-light" 
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-duration="1100"
+        data-aos-offset="0">
+   
+   
+            <h2>Whaowhia te kete mātauranga 
+                <br><i> Fill the basket of knowledge</i>
+            </h2>
+            <p>
+                Ko Panguru, Putauaki me Mauao ngā Maunga
+            <br>Ko Hokianga me Tauranga ngā Moana
+            <br>Ko Whakarapa me Rangitaiki ngā Awa
+            <br>Ko Te Rarawa ki Hokianga, Ngai te Rangi me Ngāti Awa ngā Iwi
+            <br>Ko Te Waiariki, Te Pahipoto me Ngāti Tapu ngā Hapū
+            <br>Ko Waipuna, Kokohinau me Waikari ngā Marae
+            
+            <br><br>Ko Ranginui e tu iho nei
+            <br> Ko Papatuanuku e takoto nei
+            <br> Ka puta ki te whaiao, ki te ao marama
+            <br><br>Tihei, Mauri ora!
+            </p>
+        </section>
+
+        
+
+        <div class="img2">
+
+            <div class="button">
+                <a href="#" id="one1" onmouseover="setNewTexta.call()" onmouseout="setOldTexta.call()"  >Kāinga</a>
+                <a href="Mission3.html#container" id="two1" onmouseover="setNewTextb.call()" onmouseout="setOldTextb.call()" >Mōku</a>
+                <a href="contactme.html" id="three1" onmouseover="setNewTextc.call()" onmouseout="setOldTextc.call()" >Whakapā Mai</a>
+            </div>=
+
+
+            
+
+            <div class="text">
+                <span class="border" id="about" onmouseover="newText1.call()" onmouseout="oldText1.call()" >
+                    Mōku   
+                </span>
+            </div>
+        </div>
+ 
+        <section class="section section-dark">
+            <div id="container">
+
+            <div class="left no gutters" data-aos="flip-right" data-aos-duration="2000">
+
+            <h2>Mōku/About Me </h2>
+             <p> 
+                I am a graduated teacher seeking to expand my employment opportunities through a career in the technology industry. 
+                In the long term I see myself combining my teaching skills and experience gained in the technology sector to enhance 
+                the lives of Māori, Pasifika and other communities through technology and education.
+                I entered the field of education because I believe it to be one of the most powerful vehicles for improving opportunities, 
+                thus improving success. I believe education to be the proverbial ‘ambulance’, - except at the top of the cliff. 
+                <br>I have witnessed the dramatic rise of the technology industry and see my future career path here. I plan to secure 
+                employment and gain experience in this industry for at least the next decade. <br>Beyond that, I have a vision to combine 
+                this experience with my teaching background in order to upskill and enhance employment opportunities for those whom this 
+                industry mightn’t be accessible to.<br>
+                 This vision is rooted in my belief that enabling equitable outcomes can start from myself, within my own home and that we each 
+                 have a role to play in securing the futures of those in vulnerable environments.    
+            </p> 
+            </div>  
+        
+
+        
+                        
+            <div class="right no gutters" >  
+            <img src="Images/website.png" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="1000"> </div>
+        
+            
+        </div>
+        </section>
+        
+        <div class="img3" >
+
+            <div class="button">
+                <a href="#" id="one2" onmouseover="setNewTextx.call()" onmouseout="setOldTextx.call()">Kāinga</a>
+                <a href="Mission3.html#container" id="two2" onmouseover="setNewTexty.call()" onmouseout="setOldTexty.call()" >Mōku</a>
+                <a href="contactme.html" id="three2" onmouseover="setNewTextz.call()" onmouseout="setOldTextz.call()">Whakapā Mai</a>
+            </div>
+
+            <div class="text">
+                <span class="border" id="section3" onmouseover="newText2.call()" onmouseout="oldText2.call()" >
+                    Wahanga 3 
+                </span>
+            </div>
+        </div>  
+
+        <section class="section section-light">
+            <h2>Section Three</h2>
+            <p>Section 3 stuff. Career stuff maybe?</p>
+        </section>
+
+
+
+        <script type="text/javascript" >
+
+//Image buttons:
+
+            //home button img 1
+            function setNewText1()
+            {
+            document.querySelector('#one')
+            .textContent='Home';
+            
+            }
+            
+            function setOldText1() 
+            {
+            
+            document.querySelector('#one')
+            .textContent = 'Kāinga';
+            
+            }
+
+
+            //about button img 1
+            function setNewText2()
+            {
+            document.querySelector('#two')
+            .textContent='About Me';
+            
+            }
+            
+            function setOldText2() 
+            {
+            
+            document.querySelector('#two')
+            .textContent = 'Mōku';
+            
+            }
+
+
+            //contact button img 1
+            function setNewText3()
+            {
+            document.querySelector('#three')
+            .textContent='Contact Me';
+            
+            }
+            
+            function setOldText3() 
+            {
+            
+            document.querySelector('#three')
+            .textContent = 'Whakapā Mai';
+            
+            }
+
+
+
+            //home button image2
+            function setNewTexta()
+            {
+            document.querySelector('#one1')
+            .textContent='Home';
+            
+            }
+            
+            function setOldTexta() 
+            {
+            
+            document.querySelector('#one1')
+            .textContent = 'Kāinga';
+            
+            }
+
+
+            //about button image2
+            function setNewTextb()
+            {
+            document.querySelector('#two1')
+            .textContent='About Me';
+            
+            }
+            
+            function setOldTextb() 
+            {
+            
+            document.querySelector('#two1')
+            .textContent = 'Mōku';
+            
+            }
+
+
+            //contact button image2
+            function setNewTextc()
+            {
+            document.querySelector('#three1')
+            .textContent='Contact Me';
+            
+            }
+            
+            function setOldTextc() 
+            {
+            
+            document.querySelector('#three1')
+            .textContent = 'Whakapā Mai';
+            
+            }
+
+
+            //home button image3
+            function setNewTextx()
+            {
+            document.querySelector('#one2')
+            .textContent='Home';
+            
+            }
+            
+            function setOldTextx() 
+            {
+            
+            document.querySelector('#one2')
+            .textContent = 'Kāinga';
+            
+            }
+
+
+            //about button image3
+            function setNewTexty()
+            {
+            document.querySelector('#two2')
+            .textContent='About Me';
+            
+            }
+            
+            function setOldTexty() 
+            {
+            
+            document.querySelector('#two2')
+            .textContent = 'Mōku';
+            
+            }
+
+
+            //contact button image3
+            function setNewTextz()
+            {
+            document.querySelector('#three2')
+            .textContent='Contact Me';
+            
+            }
+            
+            function setOldTextz() 
+            {
+            
+            document.querySelector('#three2')
+            .textContent = 'Whakapā Mai';
+            
+            }
+
+
+//Headings:
+            //Welcome heading
+            function newText()
+            {
+
+            document.querySelector('#welcome')
+            .textContent = 'Welcome';
+
+            }
+            
+
+            function oldText()
+            {
+
+            document.querySelector('#welcome')
+            .textContent = 'Nau Mai, haere mai';
+            }
+
+
+            //About Me heading
+            function newText1()
+            {
+
+            document.querySelector('#about')
+            .textContent = 'About Me';
+
+            }
+            
+
+            function oldText1()
+            {
+
+            document.querySelector('#about')
+            .textContent = 'Mõku';
+            }
+
+            //Section3 heading
+            function newText2()
+            {
+
+            document.querySelector('#section3')
+            .textContent = 'Section 3';
+
+            }
+            
+
+            function oldText2()
+            {
+
+            document.querySelector('#section3')
+            .textContent = 'Wahanga 3';
+            }
+
+            //scroll reveal about me section:
+            AOS.init();
+
+            
+            
+            </script>
+
+    </body>
+
+</html>

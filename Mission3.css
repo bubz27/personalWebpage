@@ -1,0 +1,179 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+
+.img1 {
+    background-image: url('Images/Waikari.jpeg');
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img2 {
+    background-image: url('Images/Waipuna.jpg');
+    min-height: 600px;
+    position: relative;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img3 {
+    background-image: url('Images/Kokohinau.jpg');
+    min-height: 500px;
+    position: relative;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;   
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: black;
+    color: #ddd;
+}
+
+
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    letter-spacing: 8px;
+    font-family: 'Lora', serif;
+}
+
+.text .border {
+    background-color: #111;
+    color: #fff;
+    padding:10px;
+}
+
+
+.button {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #D3D3D3;
+   
+}
+
+
+.button:active #one, .button:active #one1, .button:active #one2  {
+    transform: scale(1.1, 1.1);
+}
+
+
+.button:active #two, .button:active #two1, .button:active #two2 {
+    transform: scale(1.1, 1.1);
+} 
+
+
+.button:active #three, .button:active #three1, .button:active #three2  {
+    transform: scale(1.1, 1.1);
+}
+
+
+
+.button #one, .button #one1, .button #one2 {
+    font-size: 18px;
+    text-decoration: none;
+    border: #696969 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.button #two, .button #two1, .button #two2 {
+    font-size: 18px;
+    text-decoration: none;
+    border: #696969 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+
+.button #three, .button #three1, .button #three2 {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border: #696969 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    justify-content: center;
+    background-color: black;
+    
+
+}
+
+
+
+#container {
+    max-height: 80px 100vh;
+    display: flex;
+}
+
+
+.left {
+   
+    width: 50vw;
+    height: 65vh;
+    background-color: black;
+    text-justify: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+
+
+.right {
+    width: 50vw;
+    padding-bottom: 45px; 
+    
+}
+
+img {
+    min-height: 100%;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+
